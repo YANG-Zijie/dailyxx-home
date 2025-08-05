@@ -1,2 +1,22 @@
 title: 今日打卡
+description: 今天你 XX 了吗？简洁易用的习惯打卡应用
 theme: minima
+logo: /dailyxx-logo.png
+
+# 作者信息
+author:
+  name: 杨子杰
+
+# SEO 设置
+lang: zh-CN
+
+# 导航菜单
+header_pages:
+  - index.md
+  - privacy.md
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

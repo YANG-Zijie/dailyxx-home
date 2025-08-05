@@ -1,0 +1,132 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// 自定义样式
+.text-center {
+  text-align: center;
+}
+
+// Logo 样式
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+// 按钮样式
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  text-decoration: none;
+}
+
+.btn-ios {
+  background: #007AFF;
+  color: white;
+}
+
+.btn-android {
+  background: #34C759;
+  color: white;
+}
+
+// 特色列表样式
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  margin: 15px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #007AFF;
+}
+
+// 页脚样式
+.footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #666;
+}
+
+// 响应式设计
+@media (max-width: 768px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .download-btn {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+}
+
+// 页面头部样式优化
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+// 内容区域样式
+.page-content {
+  padding-top: 20px;
+}
+
+// 主标题样式
+h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+// 副标题样式
+.subtitle {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+// 分割线样式
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd, transparent);
+  margin: 30px 0;
+}

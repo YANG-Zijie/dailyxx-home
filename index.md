@@ -50,5 +50,5 @@ layout: default
 - 💬 **功能建议**：欢迎在 Issues 中分享您的想法
 
 <div align="center" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666;">
-  <p>© 2024 今日打卡. Made with ❤️ by <a href="https://github.com/YANG-Zijie">杨子杰</a></p>
+  <p>© {{ 'now' | date: '%Y' }} 今日打卡. Made with ❤️ by <a href="https://github.com/YANG-Zijie">杨子杰</a></p>
 </div>
